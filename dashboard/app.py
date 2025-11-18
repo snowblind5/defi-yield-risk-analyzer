@@ -65,12 +65,10 @@ with st.sidebar:
     
     Data source: [DeFi Llama](https://defillama.com)
     """)
-    
-    st.markdown("---")
-    st.markdown("Built with ❤️ for Dialectic")
+
 
 # Import page modules
-from views import overview, pool_explorer, risk_analysis, historical_trends
+from views import overview, pool_explorer, risk_analysis, historical_trends, methodology
 
 # Route to appropriate page
 if page == "🏠 Overview":
@@ -81,3 +79,5 @@ elif page == "📊 Risk Analysis":
     risk_analysis.show()
 elif page == "📈 Historical Trends":
     historical_trends.show()
+elif page == "📖 Methodology":
+    methodology.show()

@@ -79,6 +79,10 @@ This project provides institutional-grade risk analysis for DeFi yield farming b
 └─────────────────────┘
 ```
 
+# 🌐 Live Demo
+
+**[View Live Dashboard →](https://defi-yield-risk-analyzer-atyr3ag8rp8ogf8x3avgna.streamlit.app/)**
+
 ## 🚀 Quick Start
 
 ### Prerequisites
